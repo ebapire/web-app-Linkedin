@@ -7,8 +7,8 @@ from flask import Flask,redirect,request,render_template
 
 
 ### variables 
-clientId = '77sy8gqvao7mqx'
-clientSecret = 'YtIPJyCc1CZnwOIz'
+clientId = ''
+clientSecret = ''
 urlRedirect =  'http://eba77.com:5000/callback'
 urlAuthToken = 'https://www.linkedin.com/oauth/v2/accessToken'
 urlGetMe = 'https://api.linkedin.com/v2/me?projection=(id,firstName,lastName,profilePicture(displayImage~:playableStreams))'
