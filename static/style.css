@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+h2{
+    color: grey;
+    text-justify: auto;
+    text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+  
+  align-items: center;
+  justify-content:center;
+}
+
+.fcc-btn {
+  background-color: #199319;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  border-radius: 10px;
+  width: 200px;
+}
+#error {
+  color: red;
+}
+.column {
+  width:600px;
+  float:left;
+  align-items: center;
+}
+.fcc-btn:hover {
+  background-color: #223094;
+}
+

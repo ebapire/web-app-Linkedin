@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="static/style.css">
+	<title>Eba</title>
+	<link rel="icon" type="image/x-icon" href="static/favicon.ico">
+</head>
+<body>
+	<h1>Eva García Domingo</h1>
+
+	<h2>Introducción a Ciberseguridad: laboratorio</h2>
+	
+		<h2>Ciclo de vida del token: {{expiration}}</h2>
+		<h2>Eres {{name}}, y tu correo electrónico es: {{email}}</h2>
+		<h2>Tu avatar es: <img src={{photourl}} alt="avatar" width="100" height="100"></h2>
+		
+	
+		<h2>¿Quieres publicar un mensaje?</h2>
+		<form action="/createMessage" method="post">
+			<p>Mensaje: <input type="text" name="mensaje" width: 200px></p>
+			<p><input type="submit" value="Enviar"></p>
+		</form>
+		<p>{{mensaje}}</p>
+
+</body>
+</html>
